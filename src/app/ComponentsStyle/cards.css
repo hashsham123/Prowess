@@ -1,0 +1,63 @@
+.cardsParent {
+  position: absolute;
+  height: auto;
+  width: 100vw;
+}
+
+.cardsFirstChild {
+  position: relative;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr; /* Three columns */
+  width: 100%;
+  height: 100%;
+}
+
+.cardsPreview {
+  width: 30rem;
+  height: 16rem;
+  margin-top: 6rem;
+}
+
+.previewImage {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.cardBottom {
+  position: absolute;
+  display: flex;
+  justify-content: left;
+  background-color: rgb(242, 237, 237);
+  width: 30rem;
+  height: 7rem;
+}
+
+.cardLogoHolder {
+  height: 100%;
+  width: 15%;
+}
+
+.cardLogo {
+  height: 3rem;
+  width: 3rem;
+  margin-left: 0.5rem;
+  margin-top: 1rem;
+}
+
+.cardLogoImg {
+  border-radius: 100%;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.cardsDesc {
+  font-size: 1rem;
+  font-weight: 600;
+  /* margin-left: 0.5rem; */
+  margin-top: 0.5rem;
+  margin-right: 4rem;
+}

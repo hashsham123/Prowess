@@ -1,6 +1,6 @@
 import React from "react";
 import "../ComponentsStyle/navbar.css";
-// import Image from "../Images";
+
 function navbar() {
   return (
     <div className="parent">
