@@ -29,13 +29,17 @@ function navbar() {
         </div>
 
         <div className="text_holder">
-            <div className="text1">
-            <h4 className="teach">Teach on prowess</h4>
-            </div>
+          <div className="text1">
+            <h4 className="head">Skill Up</h4>
+          </div>
 
-            <div className="text2">
-            <h4 className="learn">Skill Up</h4>
-            </div>
+          <div className="text2">
+            <h4 className="head">Teach on prowess</h4>
+          </div>
+
+          <div className="text3">
+            <h4 className="head">Categories</h4>
+          </div>
         </div>
       </div>
     </div>

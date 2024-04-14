@@ -1,13 +1,15 @@
 .parent {
   align-items: center;
   justify-content: center;
+  background-color: skyblue;
 }
 
 .firstChild {
   display: flex;
-  background-color: skyblue;
   height: 5rem;
   width: 100%;
+  position: relative;
+  left: 1.5rem;
 }
 
 .logo_holder {
@@ -23,7 +25,7 @@
 
 .searchbar_holder {
   position: relative;
-  left: 2rem;
+  left: 1rem;
   height: 100%;
   width: 42rem;
   display: flex;
@@ -50,7 +52,7 @@
 
 .register_holder {
   display: flex;
-  gap: 3rem;
+  gap: 1rem;
   justify-content: center;
   align-items: center;
   height: 100%;
@@ -92,7 +94,6 @@
   background-color: #5e78a3;
   border: 2px solid #1c2f4b;
   color: white;
-
 }
 
 .signup_button:hover {
@@ -102,27 +103,40 @@
 
 .text_holder {
   position: relative;
-  left: -19.5rem;
+  left: -21.5rem;
   display: flex;
-  gap: 3rem;
+  gap: 1rem;
   justify-content: center;
   align-items: center;
+  width: 21rem;
   color: white;
   font-size: 1rem;
 }
 
-.text1{
-    cursor: pointer;
+.text1 {
+  cursor: pointer;
 }
 
 .text1:hover {
-    color: #1c2f4b;
-  }
+  color: #1c2f4b;
+}
 
-.text2{
-    cursor: pointer;
+.head{
+    font-weight: 500;
+}
+
+.text2 {
+  cursor: pointer;
 }
 
 .text2:hover {
-    color: #1c2f4b;
-  }
+  color: #1c2f4b;
+}
+
+.text3 {
+  cursor: pointer;
+}
+
+.text3:hover {
+  color: #1c2f4b;
+}
