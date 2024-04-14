@@ -1,11 +1,41 @@
 .parent {
-  display: flex;
   align-items: center;
-  width: 100%;
+  justify-content: center;
 }
 
 .firstChild {
-  background-color: rgb(128, 58, 104);
-  height: 4.5rem;
+  display: flex;
+  background-color: skyblue;
+  height: 5rem;
   width: 100%;
+}
+
+.logo_holder {
+  height: 8rem;
+  width: 11rem;
+}
+
+.logo {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.searchbar_holder {
+  position: relative;
+  left: 2rem;
+  height: 100%;
+  width: 31rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchbar {
+  height: 50%;
+  width: 100%;
+  border-radius: 18px;
+  text-align: center;
+  font-weight: 200;
+  font-size: 1rem; 
 }
