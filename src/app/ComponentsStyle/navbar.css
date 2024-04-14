@@ -1,0 +1,11 @@
+.parent {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.firstChild {
+  background-color: rgb(128, 58, 104);
+  height: 4.5rem;
+  width: 100%;
+}
