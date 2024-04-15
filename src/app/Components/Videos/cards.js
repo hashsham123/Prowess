@@ -17,8 +17,10 @@ function cards() {
             </div>
             <div className="cardsDesc">
               <p>React.js Interview | tips and | tips and | tips and </p>
+              <div className="channel">
+                <p>Learn To Code</p>
+              </div>
             </div>
-            <div className="cardsChannelName"></div>
           </div>
         </div>
 
@@ -34,8 +36,10 @@ function cards() {
             </div>
             <div className="cardsDesc">
               <p>React.js Interview | tips and | tips and | tips and </p>
+              <div className="channel">
+                <p>Learn To Code</p>
+              </div>
             </div>
-            <div className="cardsChannelName"></div>
           </div>
         </div>
 
@@ -51,8 +55,10 @@ function cards() {
             </div>
             <div className="cardsDesc">
               <p>React.js Interview | tips and | tips and | tips and </p>
+              <div className="channel">
+                <p>Learn To Code</p>
+              </div>
             </div>
-            <div className="cardsChannelName"></div>
           </div>
         </div>
 
@@ -68,8 +74,10 @@ function cards() {
             </div>
             <div className="cardsDesc">
               <p>React.js Interview | tips and | tips and | tips and </p>
+              <div className="channel">
+                <p>Learn To Code</p>
+              </div>
             </div>
-            <div className="cardsChannelName"></div>
           </div>
         </div>
 
@@ -85,8 +93,10 @@ function cards() {
             </div>
             <div className="cardsDesc">
               <p>React.js Interview | tips and | tips and | tips and </p>
+              <div className="channel">
+                <p>Learn To Code</p>
+              </div>
             </div>
-            <div className="cardsChannelName"></div>
           </div>
         </div>
       </div>

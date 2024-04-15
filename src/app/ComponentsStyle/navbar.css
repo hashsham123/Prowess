@@ -1,4 +1,6 @@
 .parent {
+  position: relative;
+  z-index: 2;
   align-items: center;
   justify-content: center;
   background-color: skyblue;
@@ -44,7 +46,7 @@
 
 .searchimage {
   position: relative;
-  left: -39rem;
+  left: -38rem;
   z-index: 3;
   height: 2rem;
   width: 2rem;
