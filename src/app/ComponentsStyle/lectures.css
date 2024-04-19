@@ -1,0 +1,60 @@
+.parentLecture {
+  position: relative;
+  width: 38vw;
+  height: auto;
+  margin: 3rem 3rem;
+}
+
+.firstChildLecture {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.lectureHolder {
+  display: flex;
+  height: 8.5rem;
+  width: 100%;
+}
+
+.imgLecture {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 10%;
+}
+
+.imgHolder {
+  position: relative;
+  height: 7rem;
+  width: 18rem;
+  border-radius: 10%;
+  margin: 0.5rem 0rem 0rem 1.5rem;
+}
+
+.textHolder {
+  height: 100%;
+  width: auto;
+  z-index: 3;
+}
+
+.descText {
+  height: 31%;
+  width: 100%;
+}
+
+.plainText {
+  font-size: 1.1rem;
+  margin: 0.8rem;
+}
+
+.AuthorName {
+  width: 100%;
+  height: 100%;
+}
+
+.plainTextAuthor {
+  font-size: 1rem;
+  color: gray;
+  margin: 0.8rem;
+}
