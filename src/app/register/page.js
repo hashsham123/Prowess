@@ -4,7 +4,7 @@ import Login from "../Components/login";
 import "./page.css";
 import Link from "next/link";
 
-function login() {
+function Register() {
   const [activeTab, setActiveTab] = useState("login");
 
   const handleTabClick = (tab) => {
@@ -47,4 +47,4 @@ function login() {
   );
 }
 
-export default login;
+export default Register;
