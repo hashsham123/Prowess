@@ -1,0 +1,36 @@
+.inputHolderLogin {
+  position: relative;
+  top: 5rem;
+  height: 32%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.emailInputLoginHold {
+  height: 15%;
+  width: 70%;
+  margin: 1rem;
+  text-decoration: none;
+}
+
+.emailInputLogin {
+  height: 100%;
+  width: 100%;
+  font-size: 1.1rem;
+  
+}
+
+.passwordInputLoginHold {
+    height: 15%;
+    width: 70%;
+    margin: 1.1rem;
+    text-decoration: none;
+  }
+  
+  .passwordInputLogin {
+    height: 100%;
+    width: 100%;
+  }

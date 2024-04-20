@@ -1,7 +1,7 @@
 import React from "react";
 import VideoScreen from "../Components/videoScreen";
 import Navbar from "../Components/navbar";
-import Lectures from "../Components/lectures.js";
+import Lectures from "../Components/Lectures/lectures.js";
 import "./page.css"
 function videos() {
   return (

@@ -35,6 +35,13 @@ const cardData = [
     cardsDesc: "React.js Interview | Tips and Tricks",
     channel: "Learn To Code",
   },
+  {
+    id: 6,
+    previewImage: "/preview.JPG",
+    cardLogoImg: "/logo.JPG",
+    cardsDesc: "React.js Interview | Tips and Tricks",
+    channel: "Learn To Code",
+  },
 ];
 
 export default cardData;

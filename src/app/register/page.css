@@ -1,0 +1,92 @@
+.parentLogin {
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  height: 100vh;
+  width: 100vw;
+}
+
+.childLogin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(203, 216, 222);
+  height: 100%;
+  width: 100%;
+}
+
+.registerBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  background-color: white;
+  height: 89%;
+  width: 39%;
+  border-radius: 1.5rem;
+}
+
+.headerLogin {
+  display: flex;
+  justify-content: center;
+  border-radius: 1.5rem 1.5rem 0rem 0rem;
+  width: 100%;
+  height: 13%;
+  background-color: skyblue;
+}
+
+.logoImgRegister {
+  position: relative;
+  width: 12rem;
+  height: 12rem;
+}
+
+.tabsRegister {
+  display: flex;
+  position: relative;
+  top: 5rem;
+  margin-top: 1rem;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid skyblue;
+  width: 95%;
+  height: 4rem;
+  color: gray;
+  font-weight: 600;
+  border-radius: 1.5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.tabLogin {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabSignup {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabsRegister.active {
+}
+
+.tabLogin.active {
+  background-color: skyblue;
+  border-radius: 1.5rem 0rem 0rem 1.5rem;
+  color: white;
+}
+
+.tabSignup.active {
+  background-color: skyblue;
+  color: white;
+  border-radius: 0rem 1.5rem 1.5rem 0rem;
+}

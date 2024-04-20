@@ -1,13 +1,16 @@
 import React from "react";
 import "../ComponentsStyle/navbar.css";
+import Link from "next/link";
 
 function navbar() {
   return (
     <div className="parent">
       <div className="firstChild">
-        <div className="logo_holder">
-          <img className="logo" src="/Designer.png" alt="Prowess Logo" />
-        </div>
+        <Link href="/">
+          <div className="logo_holder">
+            <img className="logo" src="/Designer.png" alt="Prowess Logo" />
+          </div>
+        </Link>
 
         <div className="searchbar_holder">
           <input
@@ -20,9 +23,11 @@ function navbar() {
         {/* <h1 className="">Hello Everyone!</h1> */}
 
         <div className="register_holder">
-          <div className="login_holder">
-            <button className="login_button">log in</button>
-          </div>
+          <Link href="/register">
+            <div className="login_holder">
+              <button className="login_button">log in</button>
+            </div>
+          </Link>
           <div className="signup_holder">
             <button className="signup_button">sign up</button>
           </div>

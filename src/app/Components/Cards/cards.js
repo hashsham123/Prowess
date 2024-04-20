@@ -1,15 +1,19 @@
 import React from "react";
 import "../../ComponentsStyle/cards.css";
 import cardData from "./cardsData";
+import Link from "next/link";
+
 function cards() {
   return (
     <div className="cardsParent">
       <div className="cardsFirstChild">
         {cardData.map((card) => (
           <div key={card.id} className="cardsHolder">
-            <div className="cardsPreview">
-              <img className="previewImage" src={card.previewImage}></img>
-            </div>
+            <Link href="/videos">
+              <div className="cardsPreview">
+                <img className="previewImage" src={card.previewImage}></img>
+              </div>
+            </Link>
             <div className="cardBottom">
               <div className="cardLogoHolder">
                 <div className="cardLogo">
